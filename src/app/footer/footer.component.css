@@ -1,0 +1,22 @@
+div {        
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: white;
+    background-color: rgb(56, 56, 56);
+    height: auto;
+    width: 100%;    
+}
+
+p {
+    font-size: 30px;
+    text-align: center;
+}
+
+.info {
+    padding: 0px;
+    height: auto;
+}
+
+.infoP {
+    font-size: 20px;
+}

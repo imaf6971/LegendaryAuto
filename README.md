@@ -1,2 +1,2 @@
-# Why anyone should use this file?
-I dunno. I'm a such an idiot
+# Legendary Auto
+There's no useful info, so get out

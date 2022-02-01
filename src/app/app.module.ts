@@ -9,7 +9,6 @@ import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { CarListComponent } from './car-list/car-list.component';
 import { AppServiceService } from './app-service.service';
-import { CarBlockComponent } from './car-block/car-block.component';
 
 const appRoutes: Routes = [
   {path: '', component: HomeComponent}, 
@@ -22,8 +21,7 @@ const appRoutes: Routes = [
     HeaderComponent,
     FooterComponent,
     HomeComponent,
-    CarListComponent,
-    CarBlockComponent
+    CarListComponent,    
   ],
   imports: [
     BrowserModule,

@@ -8,9 +8,12 @@ import { AppServiceService } from '../app-service.service';
 })
 export class CarListComponent implements OnInit {
 
-  constructor() {}
+  carList: any;
+
+  constructor(private appService: AppServiceService) {}
 
   ngOnInit(): void {
+    this.carList = this.appService.carList;
   }
 
   // products: any;

@@ -4,18 +4,10 @@
             <p class="fs">Эксклюзивные авто</p>
         </div>
         <div class="center__inner2">
-            <app-car-block></app-car-block>
-            <app-car-block></app-car-block>
-            <app-car-block></app-car-block>
-            <app-car-block></app-car-block>
-            <app-car-block></app-car-block>
-            <app-car-block></app-car-block>
-            <app-car-block></app-car-block>
-            <app-car-block></app-car-block>
-            <app-car-block></app-car-block>
-            <app-car-block></app-car-block>
-            <app-car-block></app-car-block>
-            <app-car-block></app-car-block>
+            <div class="direction__item" *ngFor="let car of carList">
+                <img [src]="car.photo" alt="" class="direction__img">
+                <p class="description__text">{{ car.manufacturer }} {{ car.model }}<a href="#" class="btn-car__info">Подробнее</a></p>
+            </div>
         </div>
     </div>
 </div>

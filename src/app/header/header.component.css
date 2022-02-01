@@ -1,7 +1,17 @@
-div {
-    padding-top: 20px;         
-    text-align: center;    
-    color: white;
-    height: 680px;
-    width: 100%;    
+.header {
+	background-image: url(../../assets/Header-bg.jpg);
+	background-repeat: no-repeat;
+	background-position: top center;
+	height: 80vh;
+}
+
+.container {
+	max-width: 1240px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+a {
+	text-decoration: none;
+	color: #ffffff; 
 }

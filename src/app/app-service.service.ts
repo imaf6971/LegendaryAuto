@@ -17,7 +17,13 @@ export class AppServiceService {
       body: 'Седан',
       color: 'Красный',
       power: 571,
-      photo: '../../assets/taycan/taycan.jpg'
+      photo: [
+        '../../assets/taycan/taycan.jpg',
+        '../../assets/taycan/taycan-details1.jpg',
+        '../../assets/taycan/taycan-details2.jpg',
+        '../../assets/taycan/taycan-details3.jpg',
+        '../../assets/taycan/taycan-details4.jpg'
+      ]
     },
     {
       id: 2,
@@ -29,19 +35,31 @@ export class AppServiceService {
       body: 'Купе',
       color: 'Синий',
       power: 580,
-      photo: '../../assets/911.jpg'
+      photo: [
+        '../../assets/911/911.jpg',
+        '../../assets/911/911-details1.jpg',
+        '../../assets/911/911-details2.jpg',
+        '../../assets/911/911-details3.jpg',
+        '../../assets/911/911-details4.jpg'
+      ]
     },
     {
       id: 3,
       manufacturer: 'Porsche',
       model: 'Cayman',
       description: 'Porsche Cayman — идейный наследник Boxter и одна из самых блистательных Porsche за все время. Да, она не такая быстрая, как другие модели марки, но взгляды прохожих на ней вы будете ловить, как ни на одной другой',
-      price: 100000,
-      year: 2013,
+      price: 120000,
+      year: 2019,
       body: 'Купе',
       color: 'Желтый',
-      power: 275,
-      photo: '../../assets/cayman.jpg'
+      power: 300,
+      photo: [
+        '../../assets/cayman/cayman.jpg',
+        '../../assets/cayman/cayman-details1.jpg',
+        '../../assets/cayman/cayman-details2.jpg',
+        '../../assets/cayman/cayman-details3.jpg',
+        '../../assets/cayman/cayman-details4.jpg'
+      ]
     }
   ]
 

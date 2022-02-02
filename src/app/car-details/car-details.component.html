@@ -7,7 +7,7 @@
             </div>
             <div class="info__text">
                 <p class="text_3">{{ car.description }}</p>
-                <img src="../../assets/taycan/taycan-details1.jpg" alt="">
+                <img [src]="car.photo[1]" alt="">
             </div>
             <div class="car-info__Block">
                 <div class="car__info">
@@ -31,12 +31,12 @@
                 </div>
                 <div class="photo-block">
                     <div class="photo-block_1">
-                        <img src="../../assets/taycan/taycan-details2.jpg" alt="">
+                        <img [src]="car.photo[2]" alt="">
                     </div>
                     <div class="photo-block_2">
-                        <img src="../../assets/taycan/taycan-details3.jpg" alt="">
+                        <img [src]="car.photo[3]" alt="">
                         <br>
-                        <img src="../../assets/taycan/taycan-details4.jpg" alt="">
+                        <img [src]="car.photo[4]" alt="">
                     </div>
                 </div>
             </div>

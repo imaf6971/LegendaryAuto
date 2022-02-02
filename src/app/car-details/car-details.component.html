@@ -1,3 +1,45 @@
-<div *ngIf="car">
-    <h3>{{ car.manufacturer }} {{ car.model }}</h3>    
+<div class="center3">
+    <div class="container">
+        <div class="center__inner3">
+            <div class="info__top">
+                <p class="fs">{{ car.manufacturer }} {{ car.model }}</p>
+                  <p class="fs">{{ car.price }} р./д.</p>
+            </div>
+            <div class="info__text">
+                <p class="text_3">{{ car.description }}</p>
+                <img src="../../assets/taycan/taycan-details1.jpg" alt="">
+            </div>
+            <div class="car-info__Block">
+                <div class="car__info">
+                    <div class="text-block">
+                        <div class="text-block_1">
+                            <p>Год выпуска</p>
+                            <p>Кузов</p>
+                            <p>Цвет</p>
+                            <p>Двигатель</p>
+                        </div>
+                        <div class="text-block_2">
+                            <p>{{ car.year }}</p>
+                            <p>{{ car.body }}</p>
+                            <p>{{ car.color }}</p>
+                            <p>{{ car.power }} л.с.</p>
+                        </div>
+                    </div>
+                    <div class="btn-rent">
+                        <a href="#" class="btn__rent">Арендовать</a>
+                    </div>	
+                </div>
+                <div class="photo-block">
+                    <div class="photo-block_1">
+                        <img src="../../assets/taycan/taycan-details2.jpg" alt="">
+                    </div>
+                    <div class="photo-block_2">
+                        <img src="../../assets/taycan/taycan-details3.jpg" alt="">
+                        <br>
+                        <img src="../../assets/taycan/taycan-details4.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>

@@ -1,7 +1,10 @@
-<header class="header">
+<header
+    [class.header]="routeStatus == '/'"
+    [class.header2]="routeStatus == '/cars'"
+    [class.header3]="routeStatus != '/' && routeStatus != '/cars'">
     <div class="container">
         <div class="header__innner">
-            <div class="header__logo">
+            <div class="header__logo">                
                 <a routerLink="" class="logo">
                     <img src="../../assets/Logo.svg" width="700px" alt="">                 
                 </a>

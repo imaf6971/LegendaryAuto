@@ -5,10 +5,18 @@
 	height: 80vh;
 }
 
-.container {
-	max-width: 1240px;
-	margin: 0 auto;
-	padding: 0 10px;
+.header2{
+	background-image: url(../../assets/Header2.jpg);
+	background-repeat: no-repeat;
+	background-position: top center;
+	height: 60vh;
+}
+
+.header3{
+	background-image: url(../../assets/Header3.jpg);
+	background-repeat: no-repeat;
+	background-position: top center;
+	height: 60vh;
 }
 
 a {

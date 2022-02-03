@@ -21,5 +21,4 @@ export class CarDetailsComponent implements OnInit {
     
     this.car = this.appService.carList.find(car => car.id === carIdFromRoute);
   }
-
 }

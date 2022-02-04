@@ -19,6 +19,6 @@ export class CarDetailsComponent implements OnInit {
     const routeParams = this.route.snapshot.paramMap;
     const carIdFromRoute = Number(routeParams.get('carId'));
     
-    this.car = this.appService.carList.find(car => car.id === carIdFromRoute);
+    this.car = this.appService.carList.find(car => car.id === carIdFromRoute);    
   }
 }

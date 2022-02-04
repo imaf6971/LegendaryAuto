@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Router, ActivatedRoute, ParamMap, NavigationStart } from '@angular/router';
+import { Router, NavigationStart } from '@angular/router';
+import { AppServiceService } from './app-service.service';
 
 @Component({
   selector: 'app-root',
@@ -7,7 +8,7 @@ import { Router, ActivatedRoute, ParamMap, NavigationStart } from '@angular/rout
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {  
-  constructor(private route: Router) {}
+  constructor(private route: Router, private appService: AppServiceService) {}
 
   routeStatus: string;
 
@@ -17,5 +18,7 @@ export class AppComponent implements OnInit {
         this.routeStatus = (event as NavigationStart).url;        
       }
     })        
+
+    this.appService.sortImages();
   }
 }

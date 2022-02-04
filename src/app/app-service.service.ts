@@ -16,7 +16,7 @@ export class AppServiceService {
       body: 'Седан',
       color: 'Красный',
       power: 571,
-      photo: [
+      photos: [
         '../../assets/taycan/taycan.jpg',
         '../../assets/taycan/taycan-details1.jpg',
         '../../assets/taycan/taycan-details2.jpg',
@@ -34,7 +34,7 @@ export class AppServiceService {
       body: 'Купе',
       color: 'Синий',
       power: 580,
-      photo: [
+      photos: [
         '../../assets/911/911.jpg',
         '../../assets/911/911-details1.jpg',
         '../../assets/911/911-details2.jpg',
@@ -52,7 +52,7 @@ export class AppServiceService {
       body: 'Купе',
       color: 'Желтый',
       power: 300,
-      photo: [
+      photos: [
         '../../assets/cayman/cayman.jpg',
         '../../assets/cayman/cayman-details1.jpg',
         '../../assets/cayman/cayman-details2.jpg',
@@ -70,7 +70,7 @@ export class AppServiceService {
       body: 'Купе',
       color: 'Серебристый',
       power: 520,
-      photo: [
+      photos: [
         '../../assets/cayman/cayman.jpg',
         '../../assets/cayman/cayman-details1.jpg',
         '../../assets/cayman/cayman-details2.jpg',
@@ -88,7 +88,7 @@ export class AppServiceService {
       body: 'Фастбэк',
       color: 'Серый оливковый',
       power: 330,
-      photo: [
+      photos: [
         '../../assets/cayman/cayman.jpg',
         '../../assets/cayman/cayman-details1.jpg',
         '../../assets/cayman/cayman-details2.jpg',
@@ -106,7 +106,7 @@ export class AppServiceService {
       body: 'Тарга',
       color: 'Серебристый',
       power: 603,
-      photo: [
+      photos: [
         '../../assets/cayman/cayman.jpg',
         '../../assets/cayman/cayman-details1.jpg',
         '../../assets/cayman/cayman-details2.jpg',
@@ -124,7 +124,7 @@ export class AppServiceService {
       body: 'Купе',
       color: 'Черный',
       power: 510,
-      photo: [
+      photos: [
         '../../assets/cayman/cayman.jpg',
         '../../assets/cayman/cayman-details1.jpg',
         '../../assets/cayman/cayman-details2.jpg',
@@ -142,7 +142,7 @@ export class AppServiceService {
       body: 'Купе',
       color: 'Оранжевый',
       power: 260,
-      photo: [
+      photos: [
         '../../assets/cayman/cayman.jpg',
         '../../assets/cayman/cayman-details1.jpg',
         '../../assets/cayman/cayman-details2.jpg',
@@ -160,7 +160,7 @@ export class AppServiceService {
       body: 'Седан',
       color: 'Белый',
       power: 571,
-      photo: [
+      photos: [
         '../../assets/taycan/taycan.jpg',
         '../../assets/taycan/taycan-details1.jpg',
         '../../assets/taycan/taycan-details2.jpg',
